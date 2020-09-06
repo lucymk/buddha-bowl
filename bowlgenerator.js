@@ -10,10 +10,10 @@ const grains = {
 };
 
 const leafyGreens = {
-  Spinach: "/spinach",
-  Rocket: "/rocket",
-  "Mixed leaves": "/mixed-leaves",
-  Lettuce: "/lettuce",
+  Spinach: "./green-stuff.html",
+  Rocket: "./green-stuff.html",
+  "Mixed leaves": "./green-stuff.html",
+  Lettuce: "./green-stuff.html",
   Kale: "https://www.thekitchn.com/how-to-cook-kale-261979",
 };
 
@@ -89,41 +89,45 @@ const protein = {
   Tofu: "https://cookieandkate.com/how-to-make-crispy-baked-tofu/",
   TVP:
     "https://theveganhoneypot.ie/2019/09/30/how-to-prep-soya-chunks-for-plantmeaty-recipes/",
-  "Veggie sausage": "",
-  "Kidney beans": "",
+  "Veggie sausage": "./protein.html",
+  "Kidney beans": "./protein.html",
   Lentils: "https://www.acouplecooks.com/how-to-cook-lentils/",
-  Chickpeas: "",
-  "Black beans": "",
-  "Butter beans": "",
+  Chickpeas: "./protein.html",
+  "Black beans": "./protein.html",
+  "Butter beans": "./protein.html",
 };
 
 const herbs = {
-  Parsley: "",
-  Mint: "",
-  Dill: "",
-  Coriander: "",
-  Basil: "",
+  Parsley: "./green-stuff.html",
+  Mint: "./green-stuff.html",
+  Dill: "./green-stuff.html",
+  Coriander: "./green-stuff.html",
+  Basil: "./green-stuff.html",
 };
 
 const freshThings = {
-  Avocado: "",
-  "Spring onion": "",
-  Cucumber: "",
-  Radish: "",
-  Tomato: "",
+  Avocado: "./green-stuff.html",
+  "Spring onion": "https://www.youtube.com/watch?v=_N2Q6PKqp24",
+  Cucumber: "./green-stuff.html",
+  Radish: "https://www.youtube.com/watch?v=Aa49VBWYm20",
+  Tomato: "./green-stuff.html",
 };
 
 const extras = {
-  Pickles: "",
-  Hummus: "",
-  Capers: "",
-  Olives: "",
-  "Sundried tomatoes": "",
+  Pickles: "https://www.thekitchn.com/how-to-quick-pickle-any-vegetable-233882",
+  Hummus: "https://media.giphy.com/media/pjd7aZKHffFFvbN3KX/giphy.gif",
+  Capers:
+    "https://www.seriouseats.com/2016/02/knife-skills-how-to-chop-capers-and-olives.html",
+  Olives:
+    "https://www.seriouseats.com/2016/02/knife-skills-how-to-chop-capers-and-olives.html",
+  "Sundried tomatoes":
+    "https://www.turnips2tangerines.com/2014/08/01/how-cut-whole-sun-dried-tomatoes/",
 };
 
 const always = {
   ingredient:
     "Squeeze of lemon or lime, salt and pepper and el ingrediente secreto ❤️",
+  info: "https://media.giphy.com/media/SwsgFqsjlFzESG2gUh/giphy.gif",
 };
 
 const random = (obj) => {
